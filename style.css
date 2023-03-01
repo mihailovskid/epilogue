@@ -1,0 +1,180 @@
+body {
+    background-color: #9c9c9c;
+    margin: 0;
+}
+body p {
+    font-family: monospace;
+    text-transform: uppercase;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: fantasy;
+    margin-top: 0;
+}
+h1 {
+    padding-top: 150px;
+    letter-spacing: 2px;
+    font-size: 3rem;
+}
+h2 {
+    text-transform: uppercase;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+}
+.heading {
+    color: #444;
+}
+.colorBlack {
+    color:  #000;
+}
+.colorWhite {
+    color: #fff;
+}
+.colorLightgry {
+    color: #f4f4f4;
+}
+#epilogue {
+    background-color: #000;
+    height: 450px;
+    text-align: center;
+}
+#epilogue hr {
+    width: 400px;
+    margin: 25px auto;
+}
+#magna {
+    width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    margin: 60px auto;
+    height: 400px;
+}
+.logo {
+    padding: 60px 0 20px;
+}
+#magna .logoIcon {
+    border: solid 2px black;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 15px;
+    background-color: #fff;
+}
+#magna P {
+    width: 45%;
+    margin: 0px auto 25px;
+    word-spacing: 7px;
+    line-height: 1.5;
+}
+#magna button {
+    padding: 10px 25px;
+    background-color: white;
+}
+.btn {
+    text-transform: uppercase;
+    border-width: 1px;
+    border-radius: 5px;
+    cursor: pointer
+}
+.btn:hover {
+    color: red;
+    border-color: red;
+}
+#projects {
+    height: 330px;
+    background-color: white;
+    text-align: center; 
+}
+.box {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 80%;
+    margin: auto;
+    padding: 40px 0;
+    position: relative;
+    top: 60px;
+    bottom: 60px;
+}
+.links {
+    margin: 30px auto 0;
+}
+.links li {
+    padding: 5px;
+    list-style-type: none;
+    display: inline-block;
+} 
+.fb {
+    padding: 5px;
+    background-color: #444;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    color: white;
+}
+.in:hover {
+    color: red;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.fb:hover, .tw:hover {
+    background-color: red;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.in {
+    color: rgb(80, 79, 79);
+}
+.tw {
+    padding: 5px;
+    background-color: #444;
+    border-radius: 15%;
+    width: 14px;
+    height: 14px;
+    color: white;
+}
+#subscribe {
+    height: 550px;
+    background-color: #000;
+    text-align: center;
+}
+#subscribe form {
+    background-color: white;
+    width: 20%;
+    margin: auto;
+    text-align: left;
+    padding: 30px;
+    border-radius: 10px;
+}
+#subscribe input {
+    width: 97%;
+    padding: 5px;
+    margin-top: 5px;
+    border-width: 1px #d9d9d9;
+    border-style: solid;
+    outline-color: lightblue;
+    cursor:default;
+}
+#subscribe button {
+    width: 100%;
+    border-width: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    background-color: white;
+}
+.position {
+    position: relative;
+    top: 100px;
+}
+.team {
+    background-color: rgb(46, 45, 45);
+    width: 80px;
+    float: right;
+    margin-top: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.team p {
+   font-weight: 900;
+   line-height: 12px;
+}
+
